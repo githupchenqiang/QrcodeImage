@@ -1,0 +1,7 @@
+platform :ios, '7.2.1'
+def pods 
+ pod 'AFNetworking’
+end
+target ‘GDLString’ do  
+  pods
+end

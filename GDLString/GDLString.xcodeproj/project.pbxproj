@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E3C89AD1DBF015800E42453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C89AC1DBF015800E42453 /* main.m */; };
+		3E3C89B01DBF015800E42453 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C89AF1DBF015800E42453 /* AppDelegate.m */; };
+		3E3C89B31DBF015800E42453 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C89B21DBF015800E42453 /* ViewController.m */; };
+		3E3C89B61DBF015800E42453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3C89B41DBF015800E42453 /* Main.storyboard */; };
+		3E3C89B81DBF015800E42453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3C89B71DBF015800E42453 /* Assets.xcassets */; };
+		3E3C89BB1DBF015800E42453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3C89B91DBF015800E42453 /* LaunchScreen.storyboard */; };
+		3E3C89C61DBF015800E42453 /* GDLStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C89C51DBF015800E42453 /* GDLStringTests.m */; };
+		3E3C89D11DBF015800E42453 /* GDLStringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C89D01DBF015800E42453 /* GDLStringUITests.m */; };
+		3E3C89E01DBF09D200E42453 /* QRcodeController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C89DF1DBF09D200E42453 /* QRcodeController.mm */; };
+		A8FE2E464E7C99EF2A10376D /* libPods-GDLString.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5562F005573357EDF16243A0 /* libPods-GDLString.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E3C89C21DBF015800E42453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3C89A01DBF015800E42453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E3C89A71DBF015800E42453;
+			remoteInfo = GDLString;
+		};
+		3E3C89CD1DBF015800E42453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3C89A01DBF015800E42453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E3C89A71DBF015800E42453;
+			remoteInfo = GDLString;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EBE640BAF7D60F4D5E0EFA /* Pods-GDLString.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDLString.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDLString/Pods-GDLString.debug.xcconfig"; sourceTree = "<group>"; };
+		38B2AE65351D820A570E629A /* Pods-GDLString.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDLString.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDLString/Pods-GDLString.release.xcconfig"; sourceTree = "<group>"; };
+		3E3C89A81DBF015800E42453 /* GDLString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDLString.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3C89AC1DBF015800E42453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E3C89AE1DBF015800E42453 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E3C89AF1DBF015800E42453 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E3C89B11DBF015800E42453 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E3C89B21DBF015800E42453 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E3C89B51DBF015800E42453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E3C89B71DBF015800E42453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E3C89BA1DBF015800E42453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E3C89BC1DBF015800E42453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3C89C11DBF015800E42453 /* GDLStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDLStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3C89C51DBF015800E42453 /* GDLStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDLStringTests.m; sourceTree = "<group>"; };
+		3E3C89C71DBF015800E42453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3C89CC1DBF015800E42453 /* GDLStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDLStringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3C89D01DBF015800E42453 /* GDLStringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDLStringUITests.m; sourceTree = "<group>"; };
+		3E3C89D21DBF015800E42453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3C89DE1DBF09D200E42453 /* QRcodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRcodeController.h; sourceTree = "<group>"; };
+		3E3C89DF1DBF09D200E42453 /* QRcodeController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QRcodeController.mm; sourceTree = "<group>"; };
+		5562F005573357EDF16243A0 /* libPods-GDLString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDLString.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3C89A51DBF015800E42453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FE2E464E7C99EF2A10376D /* libPods-GDLString.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3C89BE1DBF015800E42453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3C89C91DBF015800E42453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB6797D7DAA45B6B1F5A6EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5562F005573357EDF16243A0 /* libPods-GDLString.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23D42526B537FCD4940E1510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08EBE640BAF7D60F4D5E0EFA /* Pods-GDLString.debug.xcconfig */,
+				38B2AE65351D820A570E629A /* Pods-GDLString.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E3C899F1DBF015800E42453 = {
+			isa = PBXGroup;
+			children = (
+				3E3C89AA1DBF015800E42453 /* GDLString */,
+				3E3C89C41DBF015800E42453 /* GDLStringTests */,
+				3E3C89CF1DBF015800E42453 /* GDLStringUITests */,
+				3E3C89A91DBF015800E42453 /* Products */,
+				23D42526B537FCD4940E1510 /* Pods */,
+				0AB6797D7DAA45B6B1F5A6EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3C89A91DBF015800E42453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C89A81DBF015800E42453 /* GDLString.app */,
+				3E3C89C11DBF015800E42453 /* GDLStringTests.xctest */,
+				3E3C89CC1DBF015800E42453 /* GDLStringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E3C89AA1DBF015800E42453 /* GDLString */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C89AE1DBF015800E42453 /* AppDelegate.h */,
+				3E3C89AF1DBF015800E42453 /* AppDelegate.m */,
+				3E3C89B11DBF015800E42453 /* ViewController.h */,
+				3E3C89B21DBF015800E42453 /* ViewController.m */,
+				3E3C89DE1DBF09D200E42453 /* QRcodeController.h */,
+				3E3C89DF1DBF09D200E42453 /* QRcodeController.mm */,
+				3E3C89B41DBF015800E42453 /* Main.storyboard */,
+				3E3C89B71DBF015800E42453 /* Assets.xcassets */,
+				3E3C89B91DBF015800E42453 /* LaunchScreen.storyboard */,
+				3E3C89BC1DBF015800E42453 /* Info.plist */,
+				3E3C89AB1DBF015800E42453 /* Supporting Files */,
+			);
+			path = GDLString;
+			sourceTree = "<group>";
+		};
+		3E3C89AB1DBF015800E42453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C89AC1DBF015800E42453 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E3C89C41DBF015800E42453 /* GDLStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C89C51DBF015800E42453 /* GDLStringTests.m */,
+				3E3C89C71DBF015800E42453 /* Info.plist */,
+			);
+			path = GDLStringTests;
+			sourceTree = "<group>";
+		};
+		3E3C89CF1DBF015800E42453 /* GDLStringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C89D01DBF015800E42453 /* GDLStringUITests.m */,
+				3E3C89D21DBF015800E42453 /* Info.plist */,
+			);
+			path = GDLStringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E3C89A71DBF015800E42453 /* GDLString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3C89D51DBF015800E42453 /* Build configuration list for PBXNativeTarget "GDLString" */;
+			buildPhases = (
+				DBA84DB00381C32EC1DF9CFA /* [CP] Check Pods Manifest.lock */,
+				3E3C89A41DBF015800E42453 /* Sources */,
+				3E3C89A51DBF015800E42453 /* Frameworks */,
+				3E3C89A61DBF015800E42453 /* Resources */,
+				DE0AD229DB47FEE964E1A0E1 /* [CP] Embed Pods Frameworks */,
+				AC03647519DEACB7D6536737 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDLString;
+			productName = GDLString;
+			productReference = 3E3C89A81DBF015800E42453 /* GDLString.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E3C89C01DBF015800E42453 /* GDLStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3C89D81DBF015800E42453 /* Build configuration list for PBXNativeTarget "GDLStringTests" */;
+			buildPhases = (
+				3E3C89BD1DBF015800E42453 /* Sources */,
+				3E3C89BE1DBF015800E42453 /* Frameworks */,
+				3E3C89BF1DBF015800E42453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E3C89C31DBF015800E42453 /* PBXTargetDependency */,
+			);
+			name = GDLStringTests;
+			productName = GDLStringTests;
+			productReference = 3E3C89C11DBF015800E42453 /* GDLStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E3C89CB1DBF015800E42453 /* GDLStringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3C89DB1DBF015800E42453 /* Build configuration list for PBXNativeTarget "GDLStringUITests" */;
+			buildPhases = (
+				3E3C89C81DBF015800E42453 /* Sources */,
+				3E3C89C91DBF015800E42453 /* Frameworks */,
+				3E3C89CA1DBF015800E42453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E3C89CE1DBF015800E42453 /* PBXTargetDependency */,
+			);
+			name = GDLStringUITests;
+			productName = GDLStringUITests;
+			productReference = 3E3C89CC1DBF015800E42453 /* GDLStringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E3C89A01DBF015800E42453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = QiangChen;
+				TargetAttributes = {
+					3E3C89A71DBF015800E42453 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+					};
+					3E3C89C01DBF015800E42453 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E3C89A71DBF015800E42453;
+					};
+					3E3C89CB1DBF015800E42453 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E3C89A71DBF015800E42453;
+					};
+				};
+			};
+			buildConfigurationList = 3E3C89A31DBF015800E42453 /* Build configuration list for PBXProject "GDLString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E3C899F1DBF015800E42453;
+			productRefGroup = 3E3C89A91DBF015800E42453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3C89A71DBF015800E42453 /* GDLString */,
+				3E3C89C01DBF015800E42453 /* GDLStringTests */,
+				3E3C89CB1DBF015800E42453 /* GDLStringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E3C89A61DBF015800E42453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C89BB1DBF015800E42453 /* LaunchScreen.storyboard in Resources */,
+				3E3C89B81DBF015800E42453 /* Assets.xcassets in Resources */,
+				3E3C89B61DBF015800E42453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3C89BF1DBF015800E42453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3C89CA1DBF015800E42453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC03647519DEACB7D6536737 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDLString/Pods-GDLString-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA84DB00381C32EC1DF9CFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0AD229DB47FEE964E1A0E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDLString/Pods-GDLString-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3C89A41DBF015800E42453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C89B31DBF015800E42453 /* ViewController.m in Sources */,
+				3E3C89E01DBF09D200E42453 /* QRcodeController.mm in Sources */,
+				3E3C89B01DBF015800E42453 /* AppDelegate.m in Sources */,
+				3E3C89AD1DBF015800E42453 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3C89BD1DBF015800E42453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C89C61DBF015800E42453 /* GDLStringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3C89C81DBF015800E42453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C89D11DBF015800E42453 /* GDLStringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E3C89C31DBF015800E42453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E3C89A71DBF015800E42453 /* GDLString */;
+			targetProxy = 3E3C89C21DBF015800E42453 /* PBXContainerItemProxy */;
+		};
+		3E3C89CE1DBF015800E42453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E3C89A71DBF015800E42453 /* GDLString */;
+			targetProxy = 3E3C89CD1DBF015800E42453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E3C89B41DBF015800E42453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3C89B51DBF015800E42453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E3C89B91DBF015800E42453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3C89BA1DBF015800E42453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E3C89D31DBF015800E42453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E3C89D41DBF015800E42453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E3C89D61DBF015800E42453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EBE640BAF7D60F4D5E0EFA /* Pods-GDLString.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = GDLString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.GDLString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E3C89D71DBF015800E42453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B2AE65351D820A570E629A /* Pods-GDLString.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = GDLString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.GDLString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E3C89D91DBF015800E42453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = GDLStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.GDLStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDLString.app/GDLString";
+			};
+			name = Debug;
+		};
+		3E3C89DA1DBF015800E42453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = GDLStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.GDLStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDLString.app/GDLString";
+			};
+			name = Release;
+		};
+		3E3C89DC1DBF015800E42453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = GDLStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.GDLStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDLString;
+			};
+			name = Debug;
+		};
+		3E3C89DD1DBF015800E42453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = GDLStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.GDLStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDLString;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3C89A31DBF015800E42453 /* Build configuration list for PBXProject "GDLString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3C89D31DBF015800E42453 /* Debug */,
+				3E3C89D41DBF015800E42453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3C89D51DBF015800E42453 /* Build configuration list for PBXNativeTarget "GDLString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3C89D61DBF015800E42453 /* Debug */,
+				3E3C89D71DBF015800E42453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3C89D81DBF015800E42453 /* Build configuration list for PBXNativeTarget "GDLStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3C89D91DBF015800E42453 /* Debug */,
+				3E3C89DA1DBF015800E42453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3C89DB1DBF015800E42453 /* Build configuration list for PBXNativeTarget "GDLStringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3C89DC1DBF015800E42453 /* Debug */,
+				3E3C89DD1DBF015800E42453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E3C89A01DBF015800E42453 /* Project object */;
+}
